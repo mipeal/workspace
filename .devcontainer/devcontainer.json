@@ -1,0 +1,24 @@
+{
+	"name": "App Devcontainer",
+	"dockerComposeFile": ["docker-compose.yml"],
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"donjayamanne.githistory",
+				"mhutchie.git-graph",
+				"eamodio.gitlens",
+				"github.vscode-pull-request-github",
+				"github.copilot"
+			],
+			"settings": {
+				"eslint.nodePath": "/usr/local/lib/node_modules"
+			}
+		}
+	},
+	"forwardPorts": [3000],
+	"remoteUser": "node",
+	"postCreateCommand": "git config --global --add safe.directory '*' && npm install"
+}
