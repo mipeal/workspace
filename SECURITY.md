@@ -102,8 +102,7 @@ The application only accesses publicly available CTF data through the CTFd API:
 If you discover a security vulnerability, please report it responsibly:
 
 1. **Do Not** create public GitHub issues for security vulnerabilities
-2. **Email**: Send details to [security@yourdomain.com] (replace with actual contact)
-3. **Include**: 
+2. **Include**: 
    - Detailed description of the vulnerability
    - Steps to reproduce the issue
    - Potential impact assessment
