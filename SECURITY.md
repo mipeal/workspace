@@ -131,7 +131,6 @@ If you discover a security vulnerability, please report it responsibly:
 ## Contact Information
 
 For security-related questions or concerns:
-- **Security Issues**: [security@yourdomain.com] (replace with actual contact)
 - **General Questions**: Create an issue on the GitHub repository
 - **Documentation**: Refer to this security policy and README.md
 
